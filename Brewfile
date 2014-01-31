@@ -16,5 +16,6 @@ install phantomjs
 install php53 --with-pgsql --with-fpm
 install cassandra
 install varnish
+install memcached
 
 cleanup
