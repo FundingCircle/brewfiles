@@ -17,5 +17,6 @@ install php53 --with-pgsql --with-fpm
 install cassandra
 install varnish
 install memcached
+install node
 
 cleanup
