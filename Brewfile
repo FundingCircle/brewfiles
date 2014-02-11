@@ -5,8 +5,8 @@ update
 upgrade
 
 tap josegonzalez/php
+tap homebrew/dupes
 
-install git
 install qt
 install redis
 install postgresql --with-perl
