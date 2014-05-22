@@ -11,7 +11,7 @@ install qt
 install redis
 install postgresql --with-perl
 install elasticsearch
-install wkhtmltopdf
+install homebrew/boneyard/wkhtmltopdf
 install phantomjs
 install php53 --with-pgsql --with-fpm
 install cassandra
