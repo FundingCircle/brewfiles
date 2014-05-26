@@ -6,6 +6,7 @@ upgrade
 
 tap josegonzalez/php
 tap homebrew/dupes
+tap homebrew/versions
 
 install qt
 install redis
