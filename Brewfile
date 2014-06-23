@@ -19,5 +19,6 @@ install cassandra
 install varnish
 install memcached
 install node
+install nginx --with-passenger
 
 cleanup
