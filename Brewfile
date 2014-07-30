@@ -20,5 +20,6 @@ install varnish
 install memcached
 install node
 install nginx --with-passenger
+install cmake
 
 cleanup
