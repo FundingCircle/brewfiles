@@ -14,7 +14,7 @@ install postgresql --with-perl
 install elasticsearch
 install homebrew/boneyard/wkhtmltopdf
 install phantomjs
-install php53 --with-pgsql --with-fpm
+install php54 --with-pgsql --with-fpm
 install cassandra
 install varnish
 install memcached
