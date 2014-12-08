@@ -29,4 +29,4 @@ xcode-select --install
 
 run
 
-    brew bundle ~/Brewfile
+    sh ./Brewfile
