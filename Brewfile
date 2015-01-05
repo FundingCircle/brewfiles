@@ -4,7 +4,7 @@ update
 
 upgrade
 
-tap josegonzalez/php
+tap homebrew/php
 tap homebrew/dupes
 tap homebrew/versions
 
