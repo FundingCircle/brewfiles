@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+if [[ -z $(which brew) ]]; then
+  echo 'Unable to find brew, please install it from http://brew.sh'
+  open 'http://brew.sh'
+  exit 1
+fi
+
+gem which brewdler 1>/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+  echo 'Unable to find brewdler gem, installing it'
+  gem install brewdler
+fi
+
+brew update
+brew upgrade
+
+brewdle install
+
+brew cleanup
