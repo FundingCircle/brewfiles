@@ -10,7 +10,7 @@ tap homebrew/versions
 
 install qt
 install redis
-install postgresql --with-perl
+install postgresql92 --with-perl
 install elasticsearch
 install homebrew/boneyard/wkhtmltopdf
 install phantomjs
