@@ -1,25 +1,17 @@
-# Funding Circle Dev
+tap 'homebrew/php'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
 
-update
-
-upgrade
-
-tap homebrew/php
-tap homebrew/dupes
-tap homebrew/versions
-
-install qt
-install redis
-install postgresql92 --with-perl
-install elasticsearch
-install homebrew/boneyard/wkhtmltopdf
-install phantomjs
-install php54 --with-pgsql --with-fpm
-install cassandra
-install varnish
-install memcached
-install node
-install nginx --with-passenger
-install cmake
-
-cleanup
+brew 'qt'
+brew 'redis'
+brew 'postgresql92', args: ['with-perl']
+brew 'elasticsearch'
+brew 'homebrew/boneyard/wkhtmltopdf'
+brew 'phantomjs'
+brew 'php54', args: ['with-pgsql', 'with-fpm']
+brew 'cassandra'
+brew 'varnish'
+brew 'memcached'
+brew 'node'
+brew 'nginx', args: ['with-passenger']
+brew 'cmake'

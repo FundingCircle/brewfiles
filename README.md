@@ -3,30 +3,30 @@ dotfiles
 
 A collection of useful dotfiles
 
-Homebrew Deps
-=============
+Requirements
+------------
 
-A simple way to install some development deps for Mac
+* Homebrew (http://brew.sh)
+* Brewdler (`gem install brewdler`)
+* XCode command line tools
 
-install homebrew http://brew.sh/
+### OS X
 
-### OS X Mavericks user
-Check for command line tools:
-```
-pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
-```
+Check for XCode's command line tools:
+
+    pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
 
 If the response is:
-```
-$ No receipt for 'com.apple.pkg.CLTools_Executables' found at '/'.
-```
 
-Then run the command:
-```
-xcode-select --install
-```
----
+    No receipt for 'com.apple.pkg.CLTools_Executables' found at '/'.
 
-run
+Then install them via the command:
 
-    brew bundle ~/Brewfile
+    xcode-select --install
+
+Usage
+-----
+
+Run this command inside this directory:
+
+    ./bin/install
