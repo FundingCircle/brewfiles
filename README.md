@@ -1,4 +1,4 @@
-dotfiles
+Brewfiles
 ========
 
 A collection of useful dotfiles
