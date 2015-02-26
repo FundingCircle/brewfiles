@@ -1,7 +1,7 @@
 Brewfiles
-========
+=======
 
-A collection of useful dotfiles
+Tools to achieve the perfect (Home)brew.
 
 Requirements
 ------------
