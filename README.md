@@ -7,7 +7,7 @@ Requirements
 ------------
 
 * Homebrew (http://brew.sh)
-* Brewdler (`gem install brewdler`)
+* Brewdler (`brew tap Homebrew/brewdler`)
 * XCode command line tools
 
 ### OS X
