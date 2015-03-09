@@ -6,15 +6,8 @@ if [[ -z $(which brew) ]]; then
   exit 1
 fi
 
-gem which brewdler 1>/dev/null 2>&1
-if [[ $? -ne 0 ]]; then
-  echo 'Unable to find brewdler gem, installing it'
-  gem install brewdler
-fi
-
 brew update
 brew upgrade
-
-brewdle install
-
+brew tap Homebrew/brewdler
+brew brewdle
 brew cleanup
