@@ -9,7 +9,7 @@ brew 'elasticsearch090'
 brew 'homebrew/boneyard/wkhtmltopdf'
 brew 'phantomjs198'
 brew 'php54', args: ['with-pgsql', 'with-fpm']
-brew 'cassandra'
+brew 'cassandra12'
 brew 'varnish'
 brew 'memcached'
 brew 'node'
