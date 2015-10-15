@@ -6,6 +6,8 @@ if [[ -z $(which brew) ]]; then
   exit 1
 fi
 
+source incorrect_cassandra_version_check.sh
+
 brew update
 brew upgrade
 brew tap Homebrew/brewdler
