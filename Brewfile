@@ -10,6 +10,8 @@ brew 'homebrew/boneyard/wkhtmltopdf'
 brew 'phantomjs198'
 brew 'php54', args: ['with-pgsql', 'with-fpm']
 brew 'cassandra12'
+# NOTE: snappy is a virsandra gem dependency
+brew 'snappy'
 brew 'varnish'
 brew 'memcached'
 brew 'node'
