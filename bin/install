@@ -8,7 +8,7 @@ if [[ -z $(which brew) ]]; then
   exit 1
 fi
 
-source cassandra_version_check.sh
+source "${BASH_SOURCE%/*}/cassandra_version_check.sh"
 
 brew update
 brew upgrade
