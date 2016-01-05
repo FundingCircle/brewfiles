@@ -1,5 +1,6 @@
-tap 'homebrew/php'
+tap 'fundingcircle/elasticsearch'
 tap 'homebrew/dupes'
+tap 'homebrew/php'
 tap 'homebrew/versions'
 
 brew 'qt'
