@@ -9,7 +9,7 @@ brew 'postgresql92', args: ['with-perl']
 brew 'elasticsearch090'
 brew 'homebrew/boneyard/wkhtmltopdf'
 brew 'phantomjs198'
-brew 'php54', args: ['with-pgsql', 'with-fpm']
+brew 'php54', args: ['with-postgresql', 'with-fpm']
 brew 'cassandra12'
 # NOTE: snappy is a virsandra gem dependency
 brew 'snappy'
