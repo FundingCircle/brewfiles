@@ -1,4 +1,4 @@
-tap 'fundingcircle/elasticsearch'
+tap 'fundingcircle/mortuary'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/versions'
