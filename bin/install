@@ -13,5 +13,5 @@ source "${BASH_SOURCE%/*}/cassandra_version_check.sh"
 brew update
 brew upgrade
 brew tap Homebrew/brewdler
-brew brewdle
+brew bundle
 brew cleanup

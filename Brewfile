@@ -2,6 +2,7 @@ tap 'fundingcircle/mortuary'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/versions'
+tap 'homebrew/boneyard'
 
 brew 'qt'
 brew 'redis'
