@@ -4,7 +4,7 @@ tap 'homebrew/php'
 tap 'homebrew/versions'
 tap 'homebrew/boneyard'
 
-brew 'qt'
+brew 'qt55'
 brew 'redis'
 brew 'postgresql92', args: ['with-perl']
 brew 'elasticsearch090'
