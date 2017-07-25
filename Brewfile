@@ -3,12 +3,13 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/versions'
 tap 'homebrew/boneyard'
+tap 'caskroom/casks'
 
 brew 'qt'
 brew 'redis'
 brew 'postgresql92', args: ['with-perl']
 brew 'elasticsearch090'
-brew 'homebrew/boneyard/wkhtmltopdf'
+cask 'wkhtmltopdf'
 brew 'phantomjs198'
 brew 'php54', args: ['with-postgresql', 'with-fpm']
 brew 'cassandra12'
