@@ -20,3 +20,5 @@ brew 'node'
 brew 'nginx', args: ['with-passenger']
 brew 'cmake'
 brew 'rabbitmq'
+
+cask 'xquartz'
